@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f0f; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #191919; /* Dark container background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Glowing effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-title {
+    color: #ffffff; /* White title text */
+    background: linear-gradient(45deg, #ff00cc, #00ccff, #ff00cc); /* Glittery gradient */
+    background-size: 600% 600%; /* Glittery effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Glowing effect */
+}
+
+h2 {
+    color: #00ccff; /* Cyan heading */
+}
+
+#profile-section,
+#emergency-contact {
+    background-color: #333333; /* Darker background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Glowing effect */
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: calc(100% - 82px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #474747; /* Darker input background */
+    color: #ffffff; /* White text */
+}
+
+.btn {
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    background-color: #ff00cc; /* Pink button */
+    color: #ffffff; /* White text */
+    box-shadow: 0 6px 12px rgba(255, 0, 204, 0.5); /* Dense shadow */
+}
+
+.btn-primary {
+    background-color: #00ccff; /* Cyan button */
+    box-shadow: 0 6px 12px rgba(0, 204, 255, 0.5); /* Dense shadow */
+}
+
+.btn-danger {
+    background-color: #ff6666; /* Red button */
+    box-shadow: 0 6px 12px rgba(255, 102, 102, 0.5); /* Dense shadow */
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-3px); /* Button lift effect */
+}
+
+main {
+    text-align: center;
+}
+
+#safety-features {
+    margin-bottom: 40px;
+}
+
+#panic-button {
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: #ff00cc; /* Pink button */
+    color: #ffffff; /* White text */
+    box-shadow: 0 12px 24px rgba(255, 0, 204, 0.7); /* Heavy shadow */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #999999; /* Light gray text */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeGo - Your safety at a click</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="app-title">SafeGo - Your friend is just a click away</h1>
+            <div id="profile-section">
+                <h2>Profile</h2>
+                <label for="profile-name">Name:</label>
+                <input type="text" id="profile-name" placeholder="Enter your name">
+                <button id="save-profile" class="btn btn-primary">Save</button>
+            </div>
+            <div id="emergency-contact">
+                <h2>Emergency Contact</h2>
+                <label for="emergency-number">Emergency Number:</label>
+                <input type="tel" id="emergency-number" placeholder="Enter emergency contact number">
+                <button id="save-emergency" class="btn btn-primary">Save</button>
+            </div>
+        </header>
+        <main>
+            <section id="safety-features">
+                <h2>Safety Features</h2>
+                <button id="panic-button" class="btn btn-danger">SOS</button>
+                <div id="feedback"></div>
+            </section>
+        </main>
+        <footer>
+            <!-- Footer content (e.g., copyright information) -->
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
